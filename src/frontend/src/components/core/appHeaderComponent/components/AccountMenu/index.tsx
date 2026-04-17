@@ -127,7 +127,7 @@ export const AccountMenu = () => {
             </HeaderMenuItemLink>
           </div>
 
-          <div>
+          {/* <div>
             <HeaderMenuItemLink newPage href={GITHUB_URL}>
               <span
                 data-testid="menu_github_button"
@@ -162,7 +162,7 @@ export const AccountMenu = () => {
                 {t("account.twitter")}
               </span>
             </HeaderMenuItemLink>
-          </div>
+          </div> */}
 
           <div className="flex items-center justify-between px-4 py-[6.5px] text-sm">
             <span className="">{t("account.theme")}</span>

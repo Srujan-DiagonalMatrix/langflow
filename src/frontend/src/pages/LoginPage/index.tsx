@@ -73,8 +73,15 @@ export default function LoginPage(): JSX.Element {
       }}
       className="h-screen w-full"
     >
-      <div className="flex h-full w-full flex-col items-center justify-center bg-muted">
-        <div className="flex w-72 flex-col items-center justify-center gap-2">
+      <div className="relative flex h-full w-full flex-col items-center justify-center overflow-hidden bg-center bg-no-repeat"
+        style={{ 
+          backgroundImage: "url('/login-bg.jpg')",
+          backgroundSize: "100vw auto",
+          backgroundPosition: "center center",
+        }}
+      >
+        <div className="absolute inset-0 bg-black/35" />
+        <div className="relative flex w-72 flex-col items-center justify-center gap-2 rounded-2xl bg-background/85 p-6 shadow-xl backdrop-blur-sm">
           <LangflowLogo
             title="Langflow logo"
             className="mb-4 h-10 w-10 scale-[1.5]"

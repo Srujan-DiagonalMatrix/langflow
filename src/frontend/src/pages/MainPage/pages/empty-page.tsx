@@ -92,7 +92,7 @@ export const EmptyPageCommunity = ({
             </div>
 
             <div className="flex w-full max-w-[510px] flex-col gap-7 sm:gap-[29px]">
-              <Button
+              {/* <Button
                 unstyled
                 className="group mx-3 h-[84px] sm:mx-0"
                 onClick={() => {
@@ -120,9 +120,9 @@ export const EmptyPageCommunity = ({
                   </div>
                   <ExternalLink className={EXTERNAL_LINK_ICON_CLASS} />
                 </div>
-              </Button>
+              </Button> */}
 
-              <Button
+              {/* <Button
                 unstyled
                 className="group mx-3 h-[84px] sm:mx-0"
                 onClick={() => {
@@ -150,7 +150,7 @@ export const EmptyPageCommunity = ({
                   </div>
                   <ExternalLink className={EXTERNAL_LINK_ICON_CLASS} />
                 </div>
-              </Button>
+              </Button> */}
 
               <Button
                 variant="default"
