@@ -4,3 +4,13 @@ on:
   workflow_dispatch:
 
 jobs:
+  entry:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout selected branch
+        uses: actions/checkout@v4
+
+      - name: Show current ref
+        run: |
+          echo "github.ref = ${{ github.ref }}"
+          echo "github.sha = ${{ github.sha }}"
